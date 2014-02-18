@@ -1,4 +1,4 @@
-# Chrome Extension: &Uuml;ber Simple Bookmark Count
+# &Uuml;ber Simple Bookmark Count (a Chrome extension)
 
 Shows an icon in Chrome with the bookmark count. Updates this counting when you click the icon.
 
