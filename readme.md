@@ -1,20 +1,31 @@
-# &Uuml;ber Simple Bookmark Count (a Chrome extension)
+# Instapaper Count (a Chrome extension)
 
-Shows an icon in Chrome with the bookmark count. Updates this counting when you click the icon.
+## Motivation
+As you probably know, Instapaper does not show any badge or count of the unread items in your account. It's done on purpose and I'm aware of it, but I prefer to know if I have something pending in order to remember that I should go and read it.
 
-## Install
+So this plugin adds a button in the toolbar which shows the Instapaper item count.
 
-Open the [extension url](https://chrome.google.com/webstore/detail/mogbbilahcoegijagmcmleheifpijffa) from Chrome and install it.
+
+## Installation
+
+Open the [extension url](https://chrome.google.com/webstore/detail/instapaper-count/oadfoocehndapcgpcbjngnnfonkilhjb) from Chrome and install it.
+
+
+## Use
+The first time, if you are not logged in at Instapaper it won't show any number but an '?'. 
+
+Click on the button and it will open the Instapaper page so you can log in, and from now on, it will be able to retrieve the count (you can close the Instapaper tab whenever you want, it's not needed by the plugin to work).
+
+Comments are welcome.
 
 
 ## Version History
 
-* v1.2 (17 Feb 2014)
-
-	- Shows the bookmark count in the tooltip.
-	- If there are more than 10,000 bookmarks, it show the count in the format 10k0 (but you can still see the exact count of bookmarks in the tooltip).
-
-* v1.0 (Jun 2012)
+* v1.0 (September 2014)
 
 	- Initial version
+
+* v1.3 (22nd October 2014)
+
+	- Minor tweaks.
 

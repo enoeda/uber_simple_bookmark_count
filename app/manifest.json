@@ -1,18 +1,19 @@
 {
-  "name": "Über simple bookmark count",
-  "version": "1.2",
+  "name": "Instapaper count",
+  "version": "1.3",
   "manifest_version": 2,
-  "description": "Shows an icon with the bookmark count.",
+  "description": "Shows an icon with the Instapaper count.",
   "browser_action": {
     "default_icon": "icon-128.png",
-	"default_title": "Click to count your bookmarks"
+	"default_title": "Click to count your Instapaper items"
   },
   "icons": {
     "16": "icon-16.png",
     "128": "icon-128.png"
   },
-  "background": { "scripts": ["bmcount.js"] },
+  "background": { "scripts": ["instapapercount.js"] },
+
   "permissions": [
-    "bookmarks"
+    "https://www.instapaper.com/*"
   ]
 }
